@@ -9,8 +9,6 @@ body {
 #cougar {
   background: #FFD5AE ;
   width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -20,8 +18,6 @@ body {
 #tiger {
   background: #FFBD82;
   width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -31,8 +27,6 @@ body {
 #lion {
   background: #B26219;
   width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -40,7 +34,7 @@ body {
 }
 
 header {
-  width:1250px;
+  width:100%;
 }
 
 h2, section > p {
@@ -65,8 +59,8 @@ footer {
     }
 
 h1 {
-      margin: 0;
-    }
+          margin: 0;
+        }
 
 
 /* ----- suggested colors -----
@@ -98,10 +92,12 @@ a:hover { color: #82E8FF; }
 nav {
   float: right;
   }
+
 nav ul {
   list-style: none;
   margin-top: 0;
 }
+
 nav li {
   float: left;
   margin-left: 20px;

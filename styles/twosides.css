@@ -9,38 +9,58 @@ body {
 #cougar {
   background: #FFD5AE ;
   width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  float: left;
 }
 
 #tiger {
   background: #FFBD82;
   width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+#lion {
+  background: #B26219;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+article {
+  width: 40%;
+  float: right;
+  padding: 20px;
+  margin: 60px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-#lion {
-  background: #B26219;
-  width: 100%;
-  margin: 50px auto;
-  padding: 10px 300px;
-  box-sizing: border-box;
+div {
+  width: 40%;
+  float: left;
+  padding: 30px;
+  margin: 20px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 header {
-  width:1250px;
+  width:100%;
+  position: fixed;
+  background: #333;
 }
 
 h2, section > p {
@@ -52,14 +72,8 @@ img {
   margin: auto;
     }
 
-article {
-  width: 520px;
-  padding: 20px 40px;
-  background: #fff;
-  margin: 50px auto;
-}
-
 footer {
+  clear: both;
   text-align: center;
   padding: 20px;
     }
