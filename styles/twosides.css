@@ -1,0 +1,108 @@
+body {
+    background: #333;
+    color: #000;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 150%;
+    margin: 0; /* keep this */
+}
+
+#cougar {
+  background: #FFD5AE ;
+  width: 100%;
+  margin: 50px auto;
+  padding: 10px 300px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#tiger {
+  background: #FFBD82;
+  width: 100%;
+  margin: 50px auto;
+  padding: 10px 300px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#lion {
+  background: #B26219;
+  width: 100%;
+  margin: 50px auto;
+  padding: 10px 300px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width:1250px;
+}
+
+h2, section > p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+    }
+
+article {
+  width: 520px;
+  padding: 20px 40px;
+  background: #fff;
+  margin: 50px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+    }
+
+h1 {
+      margin: 0;
+    }
+
+
+/* ----- suggested colors -----
+   B26219 cinnamon
+   FFD5AE pale peach
+   FFBD82 peach
+   379CB2 medium blue
+   82E8FF light blue
+
+   ----- neutral colors -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- links and nav --- */
+
+.clearfix {
+  clear: both;
+}
+
+a { color: #379CB2; }
+a:hover { color: #82E8FF; }
+
+nav {
+  float: right;
+  }
+nav ul {
+  list-style: none;
+  margin-top: 0;
+}
+nav li {
+  float: left;
+  margin-left: 20px;
+}
