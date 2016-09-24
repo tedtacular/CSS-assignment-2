@@ -95,21 +95,15 @@ h1 {
   clear: both;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
 
 nav {
   float: right;
-  overflow: hidden;
-  widt: 100%;
+  }
+nav ul {
+  list-style: none;
 }
-
 nav li {
   float: left;
   margin-left: 20px;
