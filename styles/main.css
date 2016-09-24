@@ -103,6 +103,7 @@ nav {
   }
 nav ul {
   list-style: none;
+  margin-top: 0;
 }
 nav li {
   float: left;
