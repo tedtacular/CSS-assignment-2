@@ -8,39 +8,42 @@ body {
 
 #cougar {
   background: #FFD5AE ;
-  width: 800px;
-  padding: 20px 40px;
+  width: 100%;
+  padding: 20px 300px;
   box-sizing: border-box;
   margin: 50px auto;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid #000
 }
 
 #tiger {
-  background: #379CB2;
-  width: 800px;
-  padding: 20px 40px;
+  background: #FFBD82;
+  width: 100%;
+  padding: 20px 300px;
   box-sizing: border-box;
   margin: 50px auto;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid #000
 }
 
 #lion {
   background: #B26219;
-  width: 800px;
-  padding: 20px 40px;
+  width: 100%;
+  padding: 20px 300px;
   box-sizing: border-box;
   margin: 50px auto;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid #000
 }
 
 header {
-  width:1250px
+  width:1250px;
 }
 
 h2, section > p {
@@ -53,19 +56,20 @@ img {
     }
 
 article {
-  width: 500px;
+  width: 600px;
   padding: 20px 40px;
   background: #fff;
+  margin: 50px auto;
 }
 
 footer {
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px;
     }
 
 h1 {
-  margin: 0;
-}
+      margin: 0;
+    }
 
 
 /* ----- suggested colors -----
@@ -91,17 +95,21 @@ h1 {
   clear: both;
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
 
 nav {
   float: right;
   overflow: hidden;
+  widt: 100%;
 }
-nav ul {
-  list-style: none;
-  margin-top: 0;
-}
+
 nav li {
   float: left;
   margin-left: 20px;
