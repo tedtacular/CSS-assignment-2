@@ -64,7 +64,7 @@ header {
 }
 
 h2, section > p {
-  text-align: center;
+  margin: 50px auto;
 }
 
 img {

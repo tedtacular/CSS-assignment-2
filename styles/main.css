@@ -39,6 +39,7 @@ header {
 
 h2, section > p {
   text-align: center;
+  padding: 20px;
 }
 
 img {
